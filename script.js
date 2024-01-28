@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     externalId: Date.now().toString(),
                     payer: {
                         partyIdType: 'MSISDN',
-                        partyId: 250792449953,
+                        partyId: 250788312524,
                     },
                     payerMessage: 'Payment for goods/services',
                     payeeNote: 'Thank you for your payment',

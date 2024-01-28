@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const amount = document.getElementById('amount').value;
 
         // Replace the following with your actual MoMo API credentials and endpoint URLs
-        const apiUrl = 'https://sandbox.momodeveloper.mtn.co.rw/collection/v1_0/requesttopay';
+        const apiUrl = 'https://mtndeveloperapi.portal.mtn.co.rw/collection/v1_0/requesttopay';
         const apiKey = 'f0116eeaa3734d42b29a939d7e420643';
         const userId = '58a75be0-35cf-4140-bdce-fabce66976e6';
         const currency = 'RWF';

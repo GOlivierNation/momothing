@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MoMo Payment Form</title>
+</head>
+<body>
+    <div class="payment-form-container">
+        <h1>MoMo Payment Form</h1>
+        <form id="payment-form">
+            <label for="phone-number">Phone Number:</label>
+            <input type="text" id="phone-number" placeholder="Enter your phone number" required>
+            
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" placeholder="Enter amount" required>
+
+            <button type="submit">Pay with MoMo</button>
+        </form>
+        <div id="payment-status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
